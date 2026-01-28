@@ -1,4 +1,5 @@
 ﻿# Mini Project 05 - Unit Tests in Services
+![tests](https://github.com/GustaBrito/Mini-Projeto-05---Unit-Tests-em-Services/actions/workflows/tests.yml/badge.svg)
 
 ## Unit Testing Business Logic in ASP.NET Core
 
