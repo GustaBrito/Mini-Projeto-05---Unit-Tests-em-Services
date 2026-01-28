@@ -1,6 +1,8 @@
-﻿# Mini Project 05 - xUnit
+﻿# Mini Project 05 - Unit Tests in Services
 
 ## Unit Testing Business Logic in ASP.NET Core
+
+Focused, production‑style unit tests for service‑layer business rules, with a clean architecture boundary and a thin API.
 
 ### What this project demonstrates
 - Business logic extracted into services
@@ -9,6 +11,16 @@
 - Domain separated in App.Core (no ASP.NET dependency)
 - Swagger endpoints to exercise the API
 - Centralized exception handling for clean controllers
+- A minimal, readable architecture for portfolio review
+
+### Project structure
+```
+src/
+  App.Api/
+  App.Core/
+tests/
+  App.UnitTests/
+```
 
 ### Exposed routes
 - GET /api/products
@@ -17,7 +29,7 @@
 - PUT /api/products/{id}
 - DELETE /api/products/{id}
 
-## How to use the project
+## Getting started
 
 ### Run the API
 ```powershell
@@ -52,7 +64,7 @@ Delete:
 curl -X DELETE https://localhost:5001/api/products/{id}
 ```
 
-## How to test each component (xUnit)
+## Testing (xUnit)
 
 ### Run all tests
 ```powershell
@@ -116,12 +128,13 @@ public void Create_WithInvalidPrice_Throws()
 - Integration tests with real database
 - API-level tests
 
-### Tests
-- Run `scripts/run-tests.ps1` to see a clear PASS/FAIL output.
-
-## Error responses (language aligned)
+## Error responses
 The API returns consistent ProblemDetails messages:
 - 400: `Product name is required.`
 - 400: `Price must be greater than zero.`
 - 409: `A product with the same name already exists.`
 - 404: `Product not found.`
+
+## License
+MIT - see `LICENSE`.
+
