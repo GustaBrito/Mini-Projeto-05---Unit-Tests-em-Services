@@ -1,5 +1,10 @@
 ﻿# Mini Project 05 - Unit Tests in Services
 ![tests](https://github.com/GustaBrito/Mini-Projeto-05---Unit-Tests-em-Services/actions/workflows/tests.yml/badge.svg)
+![dotnet](https://img.shields.io/badge/.NET-10.0-512BD4?logo=dotnet&logoColor=white)
+![aspnetcore](https://img.shields.io/badge/ASP.NET%20Core-Web%20API-512BD4?logo=dotnet&logoColor=white)
+![csharp](https://img.shields.io/badge/C%23-239120?logo=csharp&logoColor=white)
+![xunit](https://img.shields.io/badge/xUnit-100000?logo=xunit&logoColor=white)
+![swagger](https://img.shields.io/badge/Swagger-OpenAPI-85EA2D?logo=swagger&logoColor=black)
 
 ## Unit Testing Business Logic in ASP.NET Core
 
